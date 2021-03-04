@@ -1,6 +1,6 @@
 {
   "name": "teuxdeux.app",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Desktop shell for TeuxDeux.com",
   "main": "build.js",
   "private": true,
