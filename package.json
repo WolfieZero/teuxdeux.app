@@ -1,0 +1,41 @@
+{
+  "name": "teuxdeux.app",
+  "version": "0.0.0",
+  "description": "Desktop shell for TeuxDeux.com",
+  "main": "build.js",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "test": "eslint ./",
+    "release": "np"
+  },
+  "author": {
+    "name": "Neil Sweeney",
+    "email": "neil@wolfiezero.com",
+    "url": "https://wolfiezero.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolfieZero/teuxdeux.app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WolfieZero/teuxdeux.app/issues"
+  },
+  "license": "ISC",
+  "prettier": "@wolfiezero/prettier-config",
+  "dependencies": {
+    "nativefier": "^42.3.0"
+  },
+  "devDependencies": {
+    "@wolfiezero/eslint-config": "^0.1.0",
+    "@wolfiezero/prettier-config": "^1.0.0",
+    "dotenv-cli": "^4.0.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-unicorn": "^27.0.0",
+    "np": "^7.4.0",
+    "prettier": "^2.2.1"
+  }
+}
